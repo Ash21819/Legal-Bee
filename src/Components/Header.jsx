@@ -67,12 +67,12 @@ export default function Header() {
           <div className="md:hidden  border-t border-gray-200  bg-gradient-to-br from-white/30 to-amber-700/30 backdrop-blur-sm p-6 rounded-lg text-gray-900 shadow-lg z-1">
             <ul className="flex flex-col px-4 py-3 gap-3 text-gray-700 text-base font-medium">
               <li>
-                <Link href="#" onClick={() => setMenuOpen(false)}>
+                <Link href="/" onClick={() => setMenuOpen(false)}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#" onClick={() => setMenuOpen(false)}>
+                <Link href="/Services" onClick={() => setMenuOpen(false)}>
                   Services
                 </Link>
               </li>
@@ -82,12 +82,12 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="#" onClick={() => setMenuOpen(false)}>
+                <Link href="/Aboutus" onClick={() => setMenuOpen(false)}>
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="#" onClick={() => setMenuOpen(false)}>
+                <Link href="/Contactus" onClick={() => setMenuOpen(false)}>
                   Contact Us
                 </Link>
               </li>
